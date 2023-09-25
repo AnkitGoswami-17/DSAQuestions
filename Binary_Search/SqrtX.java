@@ -7,7 +7,7 @@ class Solution {
         int end=x;
         while(start<=end){
             int mid=(start)+(end-start)/2;
-            if(x/mid ==mid){
+            if(x/mid == mid){
                 return mid;
             }
             else if(x/mid<mid){
